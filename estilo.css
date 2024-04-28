@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  box-shadow: 1px 1px 3px #ddd;
+}
+.logo{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logo img{
+  width: 50px;
+}
+.principal{
+  margin-top: 40px;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.intro h1{
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+.intro{
+  text-align: start;
+  padding: 10px;
+}
+.curso{
+  width: 100%;
+  max-width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+}
+.curso .fundo-curso img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.titulo-curso{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.zona-pub{
+  width: 90%;
+  border-radius: 5px;
+  margin: 30px auto;
+  padding: 20px;
+}
+.zona-pub .titulo-pub{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.zona-pub img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.banner{
+  margin: 10px 0;
+}
+.banner .nome{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+footer{
+  background-color: #030303;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.c{
+  margin-top: 10px;
+  border-top: 1px #fff solid;
+}
+.comentar{
+  width: 100%;
+  padding: 40px;
+}
+.comentar form{
+  width: 100%;
+}
+form textarea{
+  border-radius: 10px;
+  width: 40%;
+  border: none;
+  outline: none;
+  height: 100px;
+  resize: none;
+  max-height: 150px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid brown;
+}
+
+form textarea:focus{
+  border: 1px solid #ddd;
+}
+.enviar{
+  padding: 10px;
+  background-color: darkslategray;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.enviar:hover{
+  color: darkslategray;
+  background-color: #fff;
+  border: 1px solid darkslategray;
+}
+footer a, .header a{
+  font-size: 40px;
+  color: darkslategray;
+  padding: 10px;
+  margin-left: 10px;
+}
+a:hover{
+  color: darkcyan;
+}
+
+@media screen and (max-width: 800px){
+  footer a, .header a{
+    font-size: 20px;
+  }
+  .flex{
+    flex-direction: column;
+  }
+  .zona-pub{
+    box-shadow: 1px 1px 3px #ddd,
+                1px 1px 3px #ddd;
+  }
+  form textarea{
+    width: 90%;
+  }
+  .zona-pub{
+    padding: 10px;
+  }
+}
