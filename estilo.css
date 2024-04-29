@@ -23,6 +23,7 @@
 }
 .principal{
   margin-top: 40px;
+  width: 60%;
 }
 .flex{
   display: flex;
@@ -52,7 +53,7 @@
   margin-bottom: 10px;
 }
 .zona-pub{
-  width: 90%;
+  width: 35%;
   border-radius: 5px;
   margin: 30px auto;
   padding: 20px;
@@ -150,5 +151,11 @@ a:hover{
   }
   .zona-pub{
     padding: 10px;
+  }
+    .zona-pub{
+    width: 90%;
+  }
+  .principal{
+    width: 90%;
   }
 }
